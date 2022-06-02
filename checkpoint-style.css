@@ -1,0 +1,132 @@
+body {
+    text-align: center;
+}
+
+.container {
+    margin: 100px 100px 100px 200px;
+    padding: 20px 20px 20px 20px;
+    width: 800px;
+    border-radius: 10px;
+    background-color: rgba(124, 121, 121, 0.356)
+}
+
+/* header*/
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, rgb(233, 167, 167), rgb(93, 93, 136));
+
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 30px;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.introduce,
+h1,
+h2 {
+    font-size: 25px;
+    color: rgb(0, 24, 51);
+    font-family: ui-monospace;
+}
+
+.introduce h2 {
+    padding-bottom: 20px;
+
+}
+
+
+
+
+
+
+/*main */
+main {
+    background: linear-gradient(45deg, rgb(233, 167, 167), rgb(93, 93, 136));
+    margin-top: -21px;
+}
+
+div h1 {
+    margin-top: 23px;
+}
+
+.skills h1 {
+    padding-top: 20px;
+    padding-right: auto;
+    font-family: ui-monospace;
+    font-size: 25px;
+    color: rgb(0, 24, 51);
+
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 24, 51);
+
+}
+
+.skills-list {
+    width: 400px;
+    margin: auto
+}
+
+.front {
+    margin-right: 200px;
+}
+
+input {
+    width: 150px;
+    height: 50px;
+    border: 2px solid #4CAF50;
+    border-radius: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 24, 51);
+}
+
+input:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* footer*/
+footer {
+    height: 100px;
+
+    background: linear-gradient(45deg, rgb(233, 167, 167), rgb(93, 93, 136));
+    margin-top: 2px;
+
+}
+
+.icone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.icone img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    margin: 2rem;
+    cursor: pointer;
+}
+
+.icone img:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+
+}
